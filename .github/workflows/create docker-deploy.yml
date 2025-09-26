@@ -1,5 +1,0 @@
-name: Docker CI/CD
-on:
-push:
-branches:
-- feature/add-test
