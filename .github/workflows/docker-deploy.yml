@@ -23,5 +23,5 @@ jobs:
           context: .
           push: true
           tags:
-            - ${{ secrets.DOCKER_USERNAME }}/sample-node-project:latest
-            - ${{ secrets.DOCKER_USERNAME }}/sample-node-project:${{ github.sha }}
+             ${{ secrets.DOCKER_USERNAME }}/sample-node-project:latest
+             ${{ secrets.DOCKER_USERNAME }}/sample-node-project:${{ github.sha }}
